@@ -22,8 +22,12 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/bluetel/vscode-vugu"
     },
+    "bugs": {
+        "url": "https://github.com/bluetel/vscode-vugu/issues"
+    },
+    "homepage": "https://github.com/bluetel/vscode-vugu/blob/master/README.md",
     "engines": {
         "vscode": "^1.32.0"
     },
