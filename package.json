@@ -1,0 +1,49 @@
+{
+    "name": "vscode-vugu",
+    "displayName": "Vugu for VSCode",
+    "description": "An extension for VSCode users, providing language support to Vugu projects.",
+    "version": "0.0.1",
+    "icon": "",
+    "badges": [],
+    "publisher": "Bluetel",
+    "licence": "GPL-3.0",
+    "keywords": ["Vugu", "Vu gu", "Go", "Vue"],
+    "author": {
+        "name": "Daniel Parkes",
+        "email": "djp@bluetel.co.uk"
+    },
+    "maintainers": [],
+    "contributors": [],
+    "private": false,
+    "preview": true,
+    "galleryBanner": {
+        "color": "#3870F3",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "activationEvents": [
+        "onLanguage:vugu"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "vugu",
+            "aliases": ["Vugu", "vugu"],
+            "extensions": [".vugu"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "vugu",
+            "scopeName": "source.vugu",
+            "path": "./syntaxes/vugu.tmLanguage.json"
+        }]
+    }
+}
